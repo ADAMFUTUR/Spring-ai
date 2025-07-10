@@ -1,10 +1,3 @@
-Of course! Here is an enhanced and condensed version of your README.md.
-
-The design has been improved using badges, emojis, tables, and collapsible sections for better readability and a more professional look. The text has been shortened by removing redundancy and combining sections, making it easier for users to get started quickly.
-
-I've also moved the very long list of screenshots into a separate `SCREENSHOTS.md` file, which is a common practice to keep the main README clean. You would simply create a new file named `SCREENSHOTS.md` and paste the original screenshot section into it.
-
----
 
 # 🚀 MCP Project: Spring, Python & Angular
 
@@ -15,7 +8,7 @@ I've also moved the very long list of screenshots into a separate `SCREENSHOTS.m
 
 A comprehensive Model Context Protocol (MCP) implementation featuring a Spring Boot client, Python server, and Angular frontend. This system demonstrates AI-powered chat with tool integration for real-world tasks.
 
-**Author:** Adam IMLOUL (Master SDIA)
+**Author:** Adam IMLOUL
 
 ---
 
@@ -69,7 +62,7 @@ Follow these steps to get the project running locally.
 
 #### 2. Clone the Repository
 ```bash
-git clone https://github.com/scorpionTaj/mcp-project-spring-python.git
+git clone https://github.com/adamfutur/spring-ai.git
 cd mcp-project-spring-python
 ```
 
@@ -131,15 +124,12 @@ spring.ai.ollama.chat.model=qwen3
 spring.ai.mcp.client.sse.connections.server1.url=http://localhost:8899
 spring.ai.mcp.client.sse.connections.server1.sse-endpoint=/sse
 
-# Database
-spring.datasource.url=jdbc:h2:mem:testdb
-spring.h2.console.enabled=true
+
 ```
 </details>
 
 ### 📁 Project Structure
 ```
-mcp-project-spring-python/
 ├── mcp-client/         # Spring Boot Client (Main API)
 ├── mcp-server/         # Spring Boot Server (Enterprise Services)
 ├── mcp-server-python/  # Python Server (AI Tools)
@@ -154,17 +144,12 @@ For a visual tour of the application, including the UI, tool interactions, and A
 
 ### 🗺️ Roadmap & Contributing
 
-We welcome contributions! Feel free to open an issue or submit a pull request.
 
 *   **Planned Features:**
-    *   [ ] WebSocket support for real-time chat
     *   [ ] User authentication & authorization
     *   [ ] Database persistence for chat history
-    *   [ ] Docker containerization
 *   **Contribution Ideas:**
-    *   Add new tools (weather, news APIs)
-    *   Improve the UI/UX
-    *   Add internationalization (i18n)
+    *   Add new features 
 
 ### 📄 License
 
@@ -172,4 +157,4 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 ---
 
-Made with ❤️ by **Adam IMLOUL**
+Made by **Adam IMLOUL**
