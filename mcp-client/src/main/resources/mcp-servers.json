@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "C:\\nvm4w\\nodejs\\node.exe",
+      "args": [
+        "C:\\nvm4w\\nodejs\\node_modules\\@modelcontextprotocol\\server-filesystem\\dist\\index.js",
+        "C:\\Users\\MSI\\Desktop\\mcp-project-spring-python-master"
+      ]
+    },
+    "Python_MCP_Server": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--directory",
+        "C:\\Users\\MSI\\Desktop\\mcp-project-spring-python-master\\mcp-server-python",
+        "python",
+        "server.py"
+      ]
+    }
+  }
+}

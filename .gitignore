@@ -1,0 +1,25 @@
+# IntelliJ
+.idea/
+*.iml
+
+# Screenshots and media
+ScreenShots/
+
+# Java/Maven
+target/
+build/
+*.class
+
+# Node.js
+node_modules/
+dist/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
