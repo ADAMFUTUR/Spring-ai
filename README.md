@@ -8,7 +8,7 @@
 
 A **Model Context Protocol (MCP)**-based chatbot integrating **Spring Boot (AI + Ollama)**, **Python/NodeJS MCP servers**, and an **Angular frontend**.  
 
-**Author**: [ER-RAHOUTI ACHRAF](https://github.com/your-profile)  
+**Author**: [IMLOUL Adam](https://github.com/adamfutur)  
 
 ---
 
